@@ -13,7 +13,7 @@ public class PayrollApplication extends SpringBootServletInitializer {
         return application.sources(PayrollApplication.class);
     }
 
-    public static void main(String... args) {
+    public static void main(String[] args) {
         SpringApplication.run(PayrollApplication.class, args);
     }
 }
